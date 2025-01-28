@@ -1080,6 +1080,7 @@ footer {
 
     .footer-container-box {
         padding: 0 32px;
+        height: 800px;
     }
 
     .contact-us-content {
@@ -1096,8 +1097,8 @@ footer {
     .footer-middle-container {
         border: none;
         flex-direction: column;
+        min-height: 400px;
         gap: 32px;
-        min-height: 500px;
     }
 
     .footer-middle-container-box {
