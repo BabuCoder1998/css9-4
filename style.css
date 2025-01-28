@@ -861,8 +861,22 @@ footer {
 
 @media screen and (max-width: 769px) {
 
-    header {
-        max-width: 768px;
+    .top-container-right-top p {
+        all: unset;
+        max-width: 340px;
+        width: 100px;
+        height: 112px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;        
+    }
+
+    header, main, footer {
+        min-width: 761px;
+        max-width: 762px;
         width: 100%;
     }
 
@@ -872,9 +886,9 @@ footer {
 
     .nav-container {
         padding: 19px 0 19px  109.87px;
-        max-width: 768px;
+        max-width: 762px;
         width: 100%;
-        min-width: 768px;
+        min-width: 761px;
     }
 
     .contact-us-container {
@@ -891,6 +905,7 @@ footer {
         margin-left: 32px;
         max-width: 704px;
         height: 825px;
+        width: 100%;
     }
 
     .background-text-container-box {
