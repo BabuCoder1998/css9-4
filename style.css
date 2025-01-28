@@ -1123,5 +1123,20 @@ footer {
         display: none;
     }
 
+    .profile-img-text-box {
+        max-width: 664px;
+        width: 100%;
+    }
+
+    .sec-profile-img-text-box {
+        max-width: 664px;
+        width: 100%;
+    }
+
+    .squid-img-container {
+        max-width: 704px;
+        width: 100%;
+        background-size: cover;
+    }
 
 }
