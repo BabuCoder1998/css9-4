@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 
 .small-para {
     font-family: Inter;
@@ -187,7 +192,6 @@ h2 {
     flex-direction: column;
     background: #0E0E0E;
     align-items: center;
-    gap: 104px;
 }
 
 header {
@@ -329,6 +333,7 @@ main {
     display: flex;
     justify-content: space-between;
     margin-bottom: 112px;
+    margin-top: 104px;
 }
 
 .top-container-right-section {
@@ -762,5 +767,103 @@ main {
 }
 
 footer {
-    margin-top: 289px;
+    margin-top: 393px;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.footer-container-box {
+    width: 100%;
+    padding: 0px 206px 32px 206px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.footer-middle-container-box {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    height: 351px;
+}
+
+.footer-middle-container {
+    display: flex;
+    gap: 34.26px;
+    align-items: center;
+    height: 306px;
+    border-top: 1px solid #4B557D;
+    border-bottom: 1px solid #4B557D;
+}
+
+.line {
+    width: 2px;
+    height: 224px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    max-width: 440px;
+    width: 100%;
+    height: 228px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.middle-container-lists {
+    display: flex;
+    gap: 34.26px;
+}
+
+.bottom-list-left-head {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 160px;
+}
+
+.list-styles {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.last-container {
+    display: flex;
+    justify-content: center;
+}
+
+.last-para {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144.523%;
+
 }
