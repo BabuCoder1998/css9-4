@@ -1586,4 +1586,10 @@ footer {
         width: 100%;
     }
 
+    main {
+        max-width: 320px;
+        min-width: 320px;
+        width: 100%;
+    }
+
 }
