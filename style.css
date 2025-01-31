@@ -1454,16 +1454,7 @@ footer {
         height: 600px;
     }
 
-    .squid-text-container-box {
-        padding: 16px;
-        max-width: 320px;
-        width: 100%;
-        min-width: 319px;
-        left: 0;
-        top: 99px;
-        height: auto;
-        gap: 16px;
-    }
+
 
     .highlight-text {
         font-family: Mulish;
@@ -1473,9 +1464,33 @@ footer {
         line-height: normal;
     }
 
+
     .chouse-us-container-box {
-        height: 500px;
+        flex-direction: column;
+        margin: 0;
+        height: auto;
+        
     }
+
+    .squid-img-container {
+        position: static;
+        background-size: 320px 538px;
+        background-repeat: no-repeat;
+        height: 538px;
+    }
+
+    .squid-text-container-box {
+        position: relative;
+        left: 0;
+        top: 99px;
+        min-height: 340px;
+        max-height: 340px;
+        padding: 16px;
+        
+    }
+
+    
+
 
     .reviews-container-box {
         margin-top: 32px;
